@@ -98,7 +98,7 @@ function addTitle(slide, text) {
     x: 0.7, y: 4.1, w: 11, h: 0.35,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0,
   });
-  s.addText("Planning budget about $48,700 before tax. Not a bid.", {
+  s.addText("Planning budget about $49,700 before tax. Not a bid.", {
     x: 0.7, y: 4.55, w: 11, h: 0.32,
     fontFace: F.body, fontSize: 16, color: C.white, margin: 0,
   });
@@ -224,7 +224,7 @@ function addTitle(slide, text) {
     x: 0.75, y: 5.0, w: 11.8, h: 0.85,
     fontFace: F.body, fontSize: 15, color: C.ink, margin: 0, valign: "top",
   });
-  s.addText("Cabling is still an estimate: 20 Cat6 drops at about $200 installed, $4,000, plus about $300 for the patch panel and patch cables. Downtown buildings vary. Get a Tacoma quote before the final number.", {
+  s.addText("Cabling is still an estimate: 20 Cat6 drops at about $200 installed, $4,000. The patch panel, jacks, and patch cords are priced at $228. Downtown buildings vary. Get a Tacoma quote before the final number.", {
     x: 0.75, y: 5.85, w: 11.8, h: 0.8,
     fontFace: F.body, fontSize: 15, color: C.bodyMuted, margin: 0, valign: "top",
   });
@@ -293,8 +293,8 @@ function addTitle(slide, text) {
 
   const cards = [
     { n: "$30,520", k: "THE PC", t: "Dell Pro Micro, Windows 11 Pro", d: "20 at $1,526. Core Ultra 5 235T, 16 GB of RAM, 512 GB SSD. Dell.com price on November 9, 2026, bought from Dell so each PC carries Dell's warranty. Confirm at checkout." },
-    { n: "$3,000", k: "THE SCREEN", t: "24-inch monitor, estimated", d: "About $150 each. The model is not chosen yet. The 17-inch CRTs leave. Replace this estimate with a quote before the number is treated as final." },
-    { n: "$500", k: "THE INPUT", t: "USB keyboard and mouse", d: "About $25 a set. PS/2 mice and the mix of keyboards leave with the old PCs. Same estimate rule: pick a model, then replace the number." },
+    { n: "$3,700", k: "THE SCREEN", t: "Dell Pro 24 Plus, P2425H", d: "20 at $184.99 on Dell.com, November 9, 2026. 3-year warranty with Advanced Exchange. Listed as temporarily out of stock that day, so confirm at checkout. The 17-inch CRTs leave." },
+    { n: "$400", k: "THE INPUT", t: "Dell Pro 3 keyboard and mouse", d: "KM300C, wired USB. 20 at $19.99 on Dell.com, November 9, 2026, with a 1-year warranty. PS/2 mice and the mix of keyboards leave with the old PCs." },
   ];
   cards.forEach((c, i) => {
     const x = 0.5 + i * 4.2;
@@ -350,7 +350,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 5);
-  s.addNotes("About a minute. The $30,520 is the only desk number from a real listing. It is the Dell.com price, so the PCs come with Dell's warranty. Say the monitor and the keyboard are still estimates. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
+  s.addNotes("About a minute. Every desk number is now from a real Dell.com listing, so the PC, the monitor, and the keyboard all carry Dell's warranty. The monitor has the best coverage, three years with Advanced Exchange. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
 }
 
 // ---------------------------------------------------------------------------
@@ -409,8 +409,8 @@ function addTitle(slide, text) {
   addTitle(s, "Planning total, before tax");
 
   const stats = [
-    { n: "$34,534", l: "Vendor pages", s: "PCs, server, gateway, both switches, both access points. Viewed November 9, 2026." },
-    { n: "$8,500", l: "Still an estimate", s: "Monitors, keyboards, cabling, closet, UPS, and the drives used to copy old disks." },
+    { n: "$40,038", l: "Vendor pages", s: "PCs, monitors, keyboards, server, network, cabinet, UPS, patch parts, migration drives. Viewed November 9, 2026." },
+    { n: "$4,000", l: "Still an estimate", s: "Cabling only: 20 Cat6 drops, installed. Needs a Tacoma low-voltage quote." },
     { n: "$5,640", l: "Mail, year one", s: "Microsoft 365 Business Standard, 20 people. Recheck microsoft.com before signing." },
   ];
   stats.forEach((st, i) => {
@@ -441,11 +441,11 @@ function addTitle(slide, text) {
     x: 0.5, y: 4.15, w: W - 1.0, h: 1.15,
     fill: { color: C.green }, line: { width: 0 },
   });
-  s.addText("$48,674", {
+  s.addText("$49,678", {
     x: 0.75, y: 4.28, w: 4.2, h: 0.5,
     fontFace: F.title, fontSize: 32, bold: true, color: C.white, margin: 0,
   });
-  s.addText("Year one, before tax. About $48,700 if you round it. Fiber service and sales tax are not in this number.", {
+  s.addText("Year one, before tax. About $49,700 if you round it. Fiber service and sales tax are not in this number.", {
     x: 5.1, y: 4.3, w: 7.4, h: 0.85,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0, valign: "middle",
   });
@@ -462,7 +462,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 7);
-  s.addNotes("Ninety seconds. Say planning total, then the three piles, then the green bar. 34534 plus 8500 plus 5640 is 48674. The kickoff deck rounded the first pile to $34,500 and mail to $5,600. This slide uses the unrounded sum. If a teammate adds the kickoff numbers they will be a few hundred dollars off, and that is rounding, not a new quote. Do not call this a bid.");
+  s.addNotes("Ninety seconds. Say planning total, then the three piles, then the green bar. 40038 plus 4000 plus 5640 is 49678. Line amounts are rounded to the whole dollar. The kickoff deck rounded the first pile to $40,000 and mail to $5,600. Cabling is the only estimate left. Do not call this a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -472,18 +472,19 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s, "BUDGET");
-  addTitle(s, "Where the $48,674 comes from");
+  addTitle(s, "Where the $49,678 comes from");
 
   const headerOpts = { fill: { color: C.green }, color: C.white, bold: true, align: "left" };
   const rows = [
     ["20 Dell Pro Micro desktops", "$30,520", "Dell.com, with warranty"],
     ["PowerEdge T160, Server 2025 Essentials", "$3,199", "Dell.com list"],
     ["Gateway, two switches, two access points", "$815", "Ubiquiti list"],
-    ["Monitors and keyboard sets", "$3,500", "Estimate"],
-    ["Cabling, cabinet, patch, UPS", "$4,750", "Estimate"],
-    ["Floppy, DVD, and backup disks", "$250", "Estimate"],
+    ["20 Dell monitors and keyboard sets", "$4,100", "Dell.com, with warranty"],
+    ["Wall cabinet, UPS, patch panel and cords", "$1,050", "Retail list, Nov 9"],
+    ["Floppy, DVD, and backup disks", "$354", "Retail list, Nov 9"],
+    ["Cabling, 20 Cat6 drops installed", "$4,000", "Estimate"],
     ["Microsoft 365, first year", "$5,640", "Recheck Microsoft"],
-    ["Total before tax", "$48,674", "Not a bid"],
+    ["Total before tax", "$49,678", "Not a bid"],
   ];
   const table = [
     [
@@ -514,7 +515,7 @@ function addTitle(slide, text) {
     valign: "middle",
   });
   addFooter(s, 8);
-  s.addNotes("One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics: 129 plus 379 plus 109 plus 198 is 815. Monitors 3000 plus keyboards 500 is 3500. Cabling 4000 plus patch 300 plus cabinet 250 plus UPS 200 is 4750. The line-by-line sources live in notes/budget-strawman.md in the project repo. Offer to send that page. Do not expand the UPS into a model you have not priced.");
+  s.addNotes("One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics: 129 plus 379 plus 109 plus 198 is 815. Monitors 3700 plus keyboards 400 is 4100. Cabinet 482 plus UPS 340 plus patch panel, jacks, and cords 228 is 1050. Floppy 22, DVD 64, and two 2 TB drives 268 is 354. Cabling labor is the one estimate. The line-by-line sources live in notes/budget-strawman.md in the project repo. Offer to send that page.");
 }
 
 // ---------------------------------------------------------------------------
@@ -616,10 +617,12 @@ function addTitle(slide, text) {
     { n: "03", t: "Ubiquiti store list prices", d: "UCG-Ultra $129, USW-24-PoE $379, USW-Lite-8-PoE $109, U7-Lite $99. store.ui.com, viewed November 9, 2026.", url: "https://store.ui.com/us/en" },
     { n: "04", t: "Microsoft 365 Business Standard", d: "About $23.50 per user per month, annual, from a November 1, 2026 summary of Microsoft's US list prices. Other pages that month disagreed. Confirm on Microsoft's plan page.", url: "https://www.microsoft.com/en-us/microsoft-365/business" },
     { n: "05", t: "Windows Server 2025 Essentials", d: "Licensing guidance describes Essentials for up to 25 users and 50 devices, without base Windows Server CALs. Confirm in the current Windows Server licensing guide before purchase.", url: "https://www.microsoft.com/en-us/windows-server" },
-    { n: "06", t: "The assignment brief", d: "Accounting firm on Pacific Avenue in downtown Tacoma. Equipment list, Hotmail, DSL, the janitor, and the offsite storage facility come from the instructor's problem statement.", url: null },
+    { n: "06", t: "Dell monitor and keyboard", d: "Dell Pro 24 Plus P2425H, $184.99, 3-year Advanced Exchange. Dell Pro 3 KM300C keyboard and mouse, $19.99, 1-year. dell.com, viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/dell-24-monitor-p2425h/apd/210-bmgh/monitors-monitor-accessories" },
+    { n: "07", t: "Closet and migration parts", d: "Tripp Lite SRW12U cabinet $481.79, APC BR1500MS2 UPS $339.99, Cat6 patch cords $46.96 per 10 (Staples). UniFi patch panel $29, Cat6 jacks $29 per 12 (store.ui.com). Dell DW316 DVD $63.99, USB floppy $22.09, WD Elements 2TB $133.99 each.", url: "https://www.staples.com/tripp-lite-srw12u-wall-mount-rack-enclosure-cabinet/product_IM1PX7136" },
+    { n: "08", t: "The assignment brief", d: "Accounting firm on Pacific Avenue in downtown Tacoma. Equipment list, Hotmail, DSL, the janitor, and the offsite storage facility come from the instructor's problem statement.", url: null },
   ];
   refs.forEach((r, i) => {
-    const y = 1.12 + i * 0.92;
+    const y = 1.0 + i * 0.74;
     s.addText(r.n, {
       x: 0.5, y, w: 0.7, h: 0.8,
       fontFace: F.title, fontSize: 16, bold: true, color: C.green, margin: 0, valign: "top",
@@ -632,11 +635,11 @@ function addTitle(slide, text) {
     s.addText(r.t, titleOpts);
     s.addText(r.d, {
       x: 1.3, y: y + 0.3, w: 11.3, h: 0.55,
-      fontFace: F.body, fontSize: 13, color: C.bodyMuted, margin: 0, valign: "top",
+      fontFace: F.body, fontSize: 12, color: C.bodyMuted, margin: 0, valign: "top",
     });
   });
   addFooter(s, 11);
-  s.addNotes("Twenty seconds unless someone asks. Do not read the URLs aloud. Say the prices were viewed November 9, 2026, the mail price still needs Microsoft's own page, and the client facts come from the assignment. The titles on this slide are links. Estimates for monitors, cabling, and the closet are labeled as estimates on the budget slides and are not dressed up as sources.");
+  s.addNotes("Twenty seconds unless someone asks. Do not read the URLs aloud. Say the prices were viewed November 9, 2026, the mail price still needs Microsoft's own page, and the client facts come from the assignment. The titles on this slide are links. Cabling labor is the one estimate left, and it is labeled as an estimate on the budget slides, not dressed up as a source.");
 }
 
 // ---------------------------------------------------------------------------
@@ -649,7 +652,7 @@ function addTitle(slide, text) {
   addTitle(s, "Four decisions before anyone orders");
 
   const asks = [
-    ["1", "Approve the direction", "Accept this design and the $48,674 planning total, knowing fiber and tax are extra."],
+    ["1", "Approve the direction", "Accept this design and the $49,678 planning total, knowing fiber and tax are extra."],
     ["2", "Name the domain", "Microsoft 365 cannot replace Hotmail until the firm owns a domain."],
     ["3", "Name the closet", "Which room locks, and which person holds a key the janitor does not have."],
     ["4", "Choose the freeze", "A January cutover only if the pilot is clean. Otherwise wait until after April 15."],
