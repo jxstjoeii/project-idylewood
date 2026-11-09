@@ -98,7 +98,7 @@ function addTitle(slide, text) {
     x: 0.7, y: 4.1, w: 11, h: 0.35,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0,
   });
-  s.addText("Planning budget about $36,000 before tax. Not a bid.", {
+  s.addText("Planning budget about $48,700 before tax. Not a bid.", {
     x: 0.7, y: 4.55, w: 11, h: 0.32,
     fontFace: F.body, fontSize: 16, color: C.white, margin: 0,
   });
@@ -292,7 +292,7 @@ function addTitle(slide, text) {
   addTitle(s, "Twenty of the same desk");
 
   const cards = [
-    { n: "$17,800", k: "THE PC", t: "Dell Pro Micro, Windows 11 Pro", d: "20 at about $890. 16 GB of RAM, 512 GB SSD. Amazon street price on November 9, 2026, for that class of machine. Example listings used a Core Ultra 5. This is not a cart total." },
+    { n: "$30,520", k: "THE PC", t: "Dell Pro Micro, Windows 11 Pro", d: "20 at $1,526. Core Ultra 5 235T, 16 GB of RAM, 512 GB SSD. Dell.com price on November 9, 2026, bought from Dell so each PC carries Dell's warranty. Confirm at checkout." },
     { n: "$3,000", k: "THE SCREEN", t: "24-inch monitor, estimated", d: "About $150 each. The model is not chosen yet. The 17-inch CRTs leave. Replace this estimate with a quote before the number is treated as final." },
     { n: "$500", k: "THE INPUT", t: "USB keyboard and mouse", d: "About $25 a set. PS/2 mice and the mix of keyboards leave with the old PCs. Same estimate rule: pick a model, then replace the number." },
   ];
@@ -350,7 +350,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 5);
-  s.addNotes("About a minute. The $17,800 is the only desk number from a real listing. Say the monitor and the keyboard are still estimates. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
+  s.addNotes("About a minute. The $30,520 is the only desk number from a real listing. It is the Dell.com price, so the PCs come with Dell's warranty. Say the monitor and the keyboard are still estimates. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
 }
 
 // ---------------------------------------------------------------------------
@@ -409,7 +409,7 @@ function addTitle(slide, text) {
   addTitle(s, "Planning total, before tax");
 
   const stats = [
-    { n: "$21,814", l: "Vendor pages", s: "PCs, server, gateway, both switches, both access points. Viewed November 9, 2026." },
+    { n: "$34,534", l: "Vendor pages", s: "PCs, server, gateway, both switches, both access points. Viewed November 9, 2026." },
     { n: "$8,500", l: "Still an estimate", s: "Monitors, keyboards, cabling, closet, UPS, and the drives used to copy old disks." },
     { n: "$5,640", l: "Mail, year one", s: "Microsoft 365 Business Standard, 20 people. Recheck microsoft.com before signing." },
   ];
@@ -441,11 +441,11 @@ function addTitle(slide, text) {
     x: 0.5, y: 4.15, w: W - 1.0, h: 1.15,
     fill: { color: C.green }, line: { width: 0 },
   });
-  s.addText("$35,954", {
+  s.addText("$48,674", {
     x: 0.75, y: 4.28, w: 4.2, h: 0.5,
     fontFace: F.title, fontSize: 32, bold: true, color: C.white, margin: 0,
   });
-  s.addText("Year one, before tax. About $36,000 if you round it. Fiber service and sales tax are not in this number.", {
+  s.addText("Year one, before tax. About $48,700 if you round it. Fiber service and sales tax are not in this number.", {
     x: 5.1, y: 4.3, w: 7.4, h: 0.85,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0, valign: "middle",
   });
@@ -462,7 +462,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 7);
-  s.addNotes("Ninety seconds. Say planning total, then the three piles, then the green bar. 21814 plus 8500 plus 5640 is 35954. The kickoff deck rounded the first pile to $21,800 and mail to $5,600. This slide uses the unrounded sum. If a teammate adds the kickoff numbers they will be a few hundred dollars off, and that is rounding, not a new quote. Do not call this a bid.");
+  s.addNotes("Ninety seconds. Say planning total, then the three piles, then the green bar. 34534 plus 8500 plus 5640 is 48674. The kickoff deck rounded the first pile to $34,500 and mail to $5,600. This slide uses the unrounded sum. If a teammate adds the kickoff numbers they will be a few hundred dollars off, and that is rounding, not a new quote. Do not call this a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -472,18 +472,18 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s, "BUDGET");
-  addTitle(s, "Where the $35,954 comes from");
+  addTitle(s, "Where the $48,674 comes from");
 
   const headerOpts = { fill: { color: C.green }, color: C.white, bold: true, align: "left" };
   const rows = [
-    ["20 Dell Pro Micro desktops", "$17,800", "Street price, Nov 9"],
+    ["20 Dell Pro Micro desktops", "$30,520", "Dell.com, with warranty"],
     ["PowerEdge T160, Server 2025 Essentials", "$3,199", "Dell.com list"],
     ["Gateway, two switches, two access points", "$815", "Ubiquiti list"],
     ["Monitors and keyboard sets", "$3,500", "Estimate"],
     ["Cabling, cabinet, patch, UPS", "$4,750", "Estimate"],
     ["Floppy, DVD, and backup disks", "$250", "Estimate"],
     ["Microsoft 365, first year", "$5,640", "Recheck Microsoft"],
-    ["Total before tax", "$35,954", "Not a bid"],
+    ["Total before tax", "$48,674", "Not a bid"],
   ];
   const table = [
     [
@@ -612,7 +612,7 @@ function addTitle(slide, text) {
 
   const refs = [
     { n: "01", t: "Dell PowerEdge T160", d: "dell.com, order code pe_t160_15330_os_vi_vp, $3,199. A second listing the same day showed $3,119. Viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/ipovw/poweredge-t160" },
-    { n: "02", t: "Dell Pro Micro desktops", d: "Amazon listings around $889.99 for Windows 11 Pro, 16 GB, 512 GB, Core Ultra 5 class. Viewed November 9, 2026. Used as $890.", url: "https://www.amazon.com/s?k=Dell+Pro+Micro+Windows+11+Pro" },
+    { n: "02", t: "Dell Pro Micro desktops", d: "dell.com, Dell Pro Micro (QCM1250), Core Ultra 5 235T, Windows 11 Pro, 16 GB, 512 GB, $1,526 with Dell's base warranty. Viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/desktop-computers/spd/dellpromicroqcm1250" },
     { n: "03", t: "Ubiquiti store list prices", d: "UCG-Ultra $129, USW-24-PoE $379, USW-Lite-8-PoE $109, U7-Lite $99. store.ui.com, viewed November 9, 2026.", url: "https://store.ui.com/us/en" },
     { n: "04", t: "Microsoft 365 Business Standard", d: "About $23.50 per user per month, annual, from a November 1, 2026 summary of Microsoft's US list prices. Other pages that month disagreed. Confirm on Microsoft's plan page.", url: "https://www.microsoft.com/en-us/microsoft-365/business" },
     { n: "05", t: "Windows Server 2025 Essentials", d: "Licensing guidance describes Essentials for up to 25 users and 50 devices, without base Windows Server CALs. Confirm in the current Windows Server licensing guide before purchase.", url: "https://www.microsoft.com/en-us/windows-server" },
@@ -649,7 +649,7 @@ function addTitle(slide, text) {
   addTitle(s, "Four decisions before anyone orders");
 
   const asks = [
-    ["1", "Approve the direction", "Accept this design and the $35,954 planning total, knowing fiber and tax are extra."],
+    ["1", "Approve the direction", "Accept this design and the $48,674 planning total, knowing fiber and tax are extra."],
     ["2", "Name the domain", "Microsoft 365 cannot replace Hotmail until the firm owns a domain."],
     ["3", "Name the closet", "Which room locks, and which person holds a key the janitor does not have."],
     ["4", "Choose the freeze", "A January cutover only if the pilot is clean. Otherwise wait until after April 15."],

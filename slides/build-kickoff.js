@@ -347,7 +347,7 @@ function addTitle(slide, text) {
   addTitle(s, "Planning budget, before tax");
 
   const stats = [
-    { n: "$21,800", label: "Priced from vendor pages", sub: "PCs, server, gateway, switches, access points", color: C.green },
+    { n: "$34,500", label: "Priced from vendor pages", sub: "PCs, server, gateway, switches, access points", color: C.green },
     { n: "$8,500", label: "Still an estimate", sub: "Monitors, cabling, closet, backup drives", color: "6B5A32" },
     { n: "$5,600", label: "Microsoft 365, year one", sub: "20 people, Business Standard, annual", color: "3E5230" },
   ];
@@ -379,7 +379,7 @@ function addTitle(slide, text) {
     x: 0.5, y: 3.85, w: W - 1.0, h: 1.15,
     fill: { color: C.green }, line: { width: 0 },
   });
-  s.addText("ABOUT  $36,000", {
+  s.addText("ABOUT  $48,700", {
     x: 0.75, y: 3.98, w: 5.5, h: 0.45,
     fontFace: F.title, fontSize: 28, bold: true, color: C.white, margin: 0,
   });
@@ -389,7 +389,7 @@ function addTitle(slide, text) {
   });
 
   const notes = [
-    ["PCs", "20 × about $890 Dell Pro Micro, Windows 11 Pro, 16 GB, 512 GB. Amazon street price, Nov 2026."],
+    ["PCs", "20 × $1,526 Dell Pro Micro, Core Ultra 5, Windows 11 Pro, 16 GB, 512 GB. Dell.com, includes Dell warranty."],
     ["Server", "Dell PowerEdge T160 with Windows Server 2025 Essentials, $3,199 on Dell.com."],
     ["Network", "Gateway $129, 24-port PoE switch $379, 8-port PoE switch $109, two U7 Lite access points at $99."],
     ["Mail", "About $23.50 per user per month. Confirm on microsoft.com before the final deck."],
@@ -410,7 +410,7 @@ function addTitle(slide, text) {
   });
 
   addFooter(s, 6);
-  s.addNotes("Say the words planning budget. The $21,800 is from vendor pages checked November 9. The $8,500 is not. Monitors are budgeted at about $150 and cabling at about $200 a drop, and both need a real quote. Line items and links are in notes/budget-strawman.md in the GitHub repo. If someone adds the numbers: 17800 + 3199 + 815 is 21814, which this slide rounds to $21,800. Microsoft 365 at $23.50 times 20 times 12 is $5,640, shown as $5,600. Do not let the team treat $36,000 as a bid.");
+  s.addNotes("Say the words planning budget. The $34,500 is from vendor pages checked November 9. The $8,500 is not. Monitors are budgeted at about $150 and cabling at about $200 a drop, and both need a real quote. Line items and links are in notes/budget-strawman.md in the GitHub repo. If someone adds the numbers: 30520 + 3199 + 815 is 34534, which this slide rounds to $34,500. The PCs are priced on Dell.com, not Amazon, so they come with Dell's warranty. Microsoft 365 at $23.50 times 20 times 12 is $5,640, shown as $5,600. Do not let the team treat $48,700 as a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -503,7 +503,7 @@ function addTitle(slide, text) {
   });
 
   addFooter(s, 8);
-  s.addNotes("This is the slide to camp on. Hand the room a pen or a shared doc and fill the five answers before anyone leaves. If the team rejects cloud email, the budget and the server slide both change, and you need to say so before you promise the $36,000 number. If you run out of time, decisions 3 and 4 are the ones that hurt on December 9.");
+  s.addNotes("This is the slide to camp on. Hand the room a pen or a shared doc and fill the five answers before anyone leaves. If the team rejects cloud email, the budget and the server slide both change, and you need to say so before you promise the $48,700 number. If you run out of time, decisions 3 and 4 are the ones that hurt on December 9.");
 }
 
 // ---------------------------------------------------------------------------

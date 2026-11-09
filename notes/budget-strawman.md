@@ -8,13 +8,13 @@ Prices in the "Vendor page" column were read from the vendor's site or a current
 
 | Item | Qty | Unit | Line | Where it came from |
 | --- | ---: | ---: | ---: | --- |
-| Dell Pro Micro desktop, Windows 11 Pro, 16 GB RAM, 512 GB SSD | 20 | $890 | $17,800 | Amazon listings around $889.99 on November 9, 2026. Example configs used a Core Ultra 5. Treat $890 as a street price for that class of PC, not a cart total. |
+| Dell Pro Micro desktop (QCM1250), Core Ultra 5 235T, Windows 11 Pro, 16 GB RAM, 512 GB SSD | 20 | $1,526 | $30,520 | Dell.com, November 9, 2026. Bought from Dell so each PC carries Dell's warranty (the page lists 12 months basic onsite after remote diagnosis, upgradable to 36 months at extra cost). Replaces an earlier Amazon price of about $890. The page showed a sold-out / technical-issue notice that day, so confirm at checkout. |
 | Dell PowerEdge T160 with Windows Server 2025 Essentials | 1 | $3,199 | $3,199 | Dell.com order code `pe_t160_15330_os_vi_vp`. Listed config: Xeon 6315P, 16 GB, 2x 2 TB SATA, 3 years ProSupport. A second Dell listing the same day showed $3,119. Confirm at checkout. |
 | UniFi Cloud Gateway Ultra (UCG-Ultra) | 1 | $129 | $129 | store.ui.com |
 | UniFi Standard 24 PoE (USW-24-POE, 95W) | 1 | $379 | $379 | store.ui.com |
 | UniFi Lite 8 PoE (USW-Lite-8-PoE, 52W) | 1 | $109 | $109 | store.ui.com |
 | UniFi U7 Lite access point (U7-Lite) | 2 | $99 | $198 | store.ui.com. Rated coverage is about 1,250 square feet each. |
-| **Vendor-page subtotal** |  |  | **$21,814** | The kickoff slide rounds this to $21,800. |
+| **Vendor-page subtotal** |  |  | **$34,534** | The kickoff slide rounds this to $34,500. |
 
 Port count behind the two switches: 20 PCs, 1 server, 1 Xerox, 1 check printer, and 2 access points is 25 device ports, plus a link between the switches. A single 24-port switch does not leave a spare. The 24-port switch takes the desks. The 8-port switch takes the access points, the server, and both printers.
 
@@ -39,7 +39,7 @@ Business Standard, annual commitment, about $23.50 per user per month. That figu
 
 Open microsoft.com and replace this number before the graded budget. Other November 2026 pages still show Business Premium near $22 per user per month, so the public pages do not all agree. The plan choice is more stable than the dollar: accountants need desktop Excel, so Business Basic is the wrong plan.
 
-## Not in the $36,000
+## Not in the $48,700
 
 - Sales tax.
 - A business fiber circuit to replace Qwest / CenturyLink DSL. Get a Quantum Fiber or Lumen quote for Pacific Avenue. Do not invent a monthly price.
@@ -49,4 +49,4 @@ Open microsoft.com and replace this number before the graded budget. Other Novem
 
 ## Planning total
 
-$21,814 + $8,500 + $5,640 = $35,954 before tax. The slide says about $36,000.
+$34,534 + $8,500 + $5,640 = $48,674 before tax. The slide says about $48,700.

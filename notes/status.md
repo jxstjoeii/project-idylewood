@@ -21,7 +21,7 @@ Updated 2026-11-09.
 - Twenty Dell Pro Micro desktops on Windows 11 Pro. CRTs and personal inkjets retire.
 - Microsoft 365 Business Standard replaces Hotmail. This is the decision most likely to change.
 - The dot matrix check printer and the leased Xerox stay.
-- Planning total about $36,000 before tax. Fiber and sales tax are extra.
+- Planning total about $48,700 before tax. PCs are priced on Dell.com so they carry Dell's warranty. Fiber and sales tax are extra.
 
 ## Not locked yet
 
