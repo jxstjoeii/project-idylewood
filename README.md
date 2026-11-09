@@ -42,11 +42,16 @@ Required pages:
 6. Lessons learned
 7. References
 
+## Dates
+
+- Team working meeting: November 9, 2026. Kickoff deck is `slides/Project-Idylewood-Kickoff.pptx`.
+- Graded presentation: December 9, 2026, the last class meeting.
+
 ## What is still open
 
 Answers get recorded in `notes/status.md` as we lock them down.
 
-- Due date and the date of the last class meeting
 - Team size, names, and who speaks which section
-- Budget cap, required vendors, or other instructor constraints
+- Whether the instructor allows Microsoft 365, or wants email on the Windows server
+- Budget cap or other instructor constraints
 - Which parts of the deck Joeii owns, and which parts Grok should build
