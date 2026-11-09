@@ -10,7 +10,8 @@ Updated 2026-11-09.
 - Graded presentation date: December 9, 2026, the last class meeting.
 - Team working meeting: November 9, 2026.
 - Kickoff artifact: `slides/Project-Idylewood-Kickoff.pptx`, backed by `notes/team-meeting-2026-11-09.md` and `notes/budget-strawman.md`.
-- The kickoff design is a strawman. The team has not accepted it.
+- Graded proposal deck: `slides/Project-Idylewood-Proposal.pptx`. Twelve slides. Title, overview, equipment, budget, implementation, lessons learned, references, and a closing ask.
+- The kickoff design is a strawman. The proposal deck uses that same design and says so where a price is still an estimate.
 - Repo purpose: move project notes between devices.
 
 ## Strawman, not yet accepted by the team

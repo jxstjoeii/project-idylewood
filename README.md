@@ -46,6 +46,7 @@ Required pages:
 
 - Team working meeting: November 9, 2026. Kickoff deck is `slides/Project-Idylewood-Kickoff.pptx`.
 - Graded presentation: December 9, 2026, the last class meeting.
+- Owner proposal, all required sections: `slides/Project-Idylewood-Proposal.pptx`.
 
 ## What is still open
 
