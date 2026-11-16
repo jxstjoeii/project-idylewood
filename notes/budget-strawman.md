@@ -42,6 +42,17 @@ Business Standard, annual commitment, about $23.50 per user per month. That figu
 
 Open microsoft.com and replace this number before the graded budget. Other November 2026 pages still show Business Premium near $22 per user per month, so the public pages do not all agree. The plan choice is more stable than the dollar: accountants need desktop Excel, so Business Basic is the wrong plan.
 
+## Mail option B: Exchange Server on-site (not in the total)
+
+Microsoft 365 is option A and is in the total. Option B keeps mail in the office on Exchange Server Subscription Edition.
+
+- Exchange SE runs only on Windows Server 2019, 2022, or 2025 Standard or Datacenter, not Essentials (Microsoft's Exchange supportability matrix). So it needs a second server running Windows Server Standard, plus Windows Server CALs.
+- Microsoft recommends 128 GB of RAM for a Mailbox server. The T160 in this budget has 16 GB.
+- The Exchange server license and 20 Standard CALs require active Software Assurance.
+- Microsoft does not publish a US list price for Exchange SE licenses. Get a licensing partner quote; do not invent a number.
+
+The project has no budget cap (school project, not a real install), so B is shown as a real alternative, not ruled out on cost.
+
 ## Not in the $49,700
 
 - Sales tax.

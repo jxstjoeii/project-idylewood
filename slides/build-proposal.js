@@ -253,10 +253,10 @@ function addTitle(slide, text) {
       body: "Dell.com order code pe_t160_15330_os_vi_vp, viewed November 9, 2026. A second listing that day was $3,119. Confirm at checkout.\n\nXeon 6315P, 16 GB of RAM, two 2 TB drives, Windows Server 2025 Essentials, 3 years of ProSupport.\n\nRoles: Active Directory, DNS, DHCP, file shares, and the print queue. Essentials is the small-office edition, described for up to 25 users and 50 devices, which covers this staff of 20. Confirm that limit in Microsoft's current licensing guide before purchase.\n\nAsk Dell whether those two drives are mirrored before client files depend on them.",
     },
     {
-      k: "MAIL",
-      t: "Microsoft 365 Business Standard",
+      k: "MAIL, TWO OPTIONS",
+      t: "A: Microsoft 365 Business Standard",
       price: "$5,640",
-      body: "About $23.50 per user per month on an annual plan, times 20 people, for the first year. That figure is a November 1, 2026 summary of Microsoft's US list price for Business Standard with Copilot. Other pages the same month did not match. Open microsoft.com and replace the number before anyone signs.\n\nAccountants need desktop Excel, so Business Basic is the wrong cut.\n\nThe firm needs a domain name it owns. That is an owner decision, and it is on the last slide.",
+      body: "Our pick. About $23.50 per user per month, annual, times 20 people, from a November 1, 2026 summary of Microsoft's list price. Recheck microsoft.com. Accountants need desktop Excel, so Business Basic is the wrong cut. Nothing new to run in the closet.\n\nB: Exchange Server in our own closet. The backup if mail has to stay in the office. Exchange will not run on Essentials. It needs a second server with Windows Server Standard, and Microsoft recommends 128 GB of RAM. The server license and 20 CALs need Software Assurance. Microsoft publishes no US list price, so B is a partner quote.\n\nEither way, the firm needs a domain it owns.",
     },
   ];
   panels.forEach((p, i) => {
@@ -283,7 +283,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 4);
-  s.addNotes("Speaker: Jeremy. About 90 seconds. Left side first. Say the closet is locked and the janitor does not get that key. Right side: Hotmail has no company admin and no way to require multi-factor sign-in. The $5,640 has to be rechecked on Microsoft's own page. If the class forbids cloud email, this slide changes and so does the budget. Say that if it comes up, and do not pretend the server can grow past the Essentials user cap.");
+  s.addNotes("Speaker: Jeremy. About 90 seconds. Left side first. Say the closet is locked and the janitor does not get that key. Right side: Hotmail has no company admin and no way to require multi-factor sign-in. The $5,640 has to be rechecked on Microsoft's own page. Option A is the plan. Option B is the backup if mail has to stay in the office: it costs a second server and a licensing quote, which is why we did not pick it. Do not pretend the server can grow past the Essentials user cap.");
 }
 
 // ---------------------------------------------------------------------------
@@ -415,7 +415,7 @@ function addTitle(slide, text) {
   const stats = [
     { n: "$40,038", l: "Vendor pages", s: "PCs, monitors, keyboards, server, network, cabinet, UPS, patch parts, migration drives. Viewed November 9, 2026." },
     { n: "$4,000", l: "Still an estimate", s: "Cabling only: 20 Cat6 drops, installed. Needs a Tacoma low-voltage quote." },
-    { n: "$5,640", l: "Mail, year one", s: "Microsoft 365 Business Standard, 20 people. Recheck microsoft.com before signing." },
+    { n: "$5,640", l: "Mail, year one", s: "Option A, Microsoft 365 Business Standard, 20 people. Option B, Exchange on-site, is a partner quote." },
   ];
   stats.forEach((st, i) => {
     const x = 0.5 + i * 4.2;
@@ -487,7 +487,8 @@ function addTitle(slide, text) {
     ["Wall cabinet, UPS, patch panel and cords", "$1,050", "Retail list, Nov 9"],
     ["Floppy, DVD, and backup disks", "$354", "Retail list, Nov 9"],
     ["Cabling, 20 Cat6 drops installed", "$4,000", "Estimate"],
-    ["Microsoft 365, first year", "$5,640", "Recheck Microsoft"],
+    ["Mail option A: Microsoft 365, year one", "$5,640", "Recheck Microsoft"],
+    ["Mail option B: Exchange on-site, instead of A", "Quote", "Not in total"],
     ["Total before tax", "$49,678", "Not a bid"],
   ];
   const table = [
@@ -620,7 +621,7 @@ function addTitle(slide, text) {
     { n: "02", t: "Dell Pro Micro desktops", d: "dell.com, Dell Pro Micro (QCM1250), Core Ultra 5 235T, Windows 11 Pro, 16 GB, 512 GB, $1,526 with Dell's base warranty. Viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/desktop-computers/spd/dellpromicroqcm1250" },
     { n: "03", t: "Ubiquiti store list prices", d: "UCG-Ultra $129, USW-24-PoE $379, USW-Lite-8-PoE $109, U7-Lite $99. store.ui.com, viewed November 9, 2026.", url: "https://store.ui.com/us/en" },
     { n: "04", t: "Microsoft 365 Business Standard", d: "About $23.50 per user per month, annual, from a November 1, 2026 summary of Microsoft's US list prices. Other pages that month disagreed. Confirm on Microsoft's plan page.", url: "https://www.microsoft.com/en-us/microsoft-365/business" },
-    { n: "05", t: "Windows Server 2025 Essentials", d: "Licensing guidance describes Essentials for up to 25 users and 50 devices, without base Windows Server CALs. Confirm in the current Windows Server licensing guide before purchase.", url: "https://www.microsoft.com/en-us/windows-server" },
+    { n: "05", t: "Windows Server 2025 Essentials, and Exchange", d: "Essentials is described for up to 25 users and 50 devices. Exchange Server SE runs only on Windows Server Standard or Datacenter, per Microsoft's Exchange supportability matrix.", url: "https://www.microsoft.com/en-us/windows-server" },
     { n: "06", t: "Dell monitor and keyboard", d: "Dell Pro 24 Plus P2425H, $184.99, 3-year Advanced Exchange. Dell Pro 3 KM300C keyboard and mouse, $19.99, 1-year. dell.com, viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/dell-24-monitor-p2425h/apd/210-bmgh/monitors-monitor-accessories" },
     { n: "07", t: "Closet and migration parts", d: "Tripp Lite SRW12U cabinet $481.79, APC BR1500MS2 UPS $339.99, Cat6 patch cords $46.96 per 10 (Staples). UniFi patch panel $29, Cat6 jacks $29 per 12 (store.ui.com). Dell DW316 DVD $63.99, USB floppy $22.09, WD Elements 2TB $133.99 each.", url: "https://www.staples.com/tripp-lite-srw12u-wall-mount-rack-enclosure-cabinet/product_IM1PX7136" },
     { n: "08", t: "The assignment brief", d: "Accounting firm on Pacific Avenue in downtown Tacoma. Equipment list, Hotmail, DSL, the janitor, and the offsite storage facility come from the instructor's problem statement.", url: null },
@@ -657,7 +658,7 @@ function addTitle(slide, text) {
 
   const asks = [
     ["1", "Approve the direction", "Accept this design and the $49,678 planning total, knowing fiber and tax are extra."],
-    ["2", "Name the domain", "Microsoft 365 cannot replace Hotmail until the firm owns a domain."],
+    ["2", "Name the domain", "Either mail option needs a domain the firm owns before Hotmail can go."],
     ["3", "Name the closet", "Which room locks, and which person holds a key the janitor does not have."],
     ["4", "Choose the freeze", "A January cutover only if the pilot is clean. Otherwise wait until after April 15."],
   ];
