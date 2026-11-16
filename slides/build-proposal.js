@@ -102,7 +102,11 @@ function addTitle(slide, text) {
     x: 0.7, y: 4.55, w: 11, h: 0.32,
     fontFace: F.body, fontSize: 16, color: C.white, margin: 0,
   });
-  s.addNotes("Thirty seconds. Introduce whoever is in the room, then say this is a proposal for the owner, not a shopping list. The number on this slide is a planning total. The ask is the last slide. Do not apologize for the CRTs. Move on.");
+  s.addText("JOEII  ·  JEREMY  ·  RAY", {
+    x: 0.7, y: 5.45, w: 11, h: 0.32,
+    fontFace: F.label, fontSize: 14, color: C.gold, charSpacing: 2.2, margin: 0,
+  });
+  s.addNotes("Speaker: Joeii. Thirty seconds. Introduce the team: Joeii opens and closes, Jeremy covers the equipment, Ray covers the install timeline. Then say this is a proposal for the owner, not a shopping list. The number on this slide is a planning total. The ask is the last slide. Do not apologize for the CRTs. Move on.");
 }
 
 // ---------------------------------------------------------------------------
@@ -170,7 +174,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, italic: true, color: C.white, margin: 0, valign: "middle",
   });
   addFooter(s, 2);
-  s.addNotes("Two minutes. Read down the left column, then the right. Then read the green bar slowly. If someone says the assignment wants the server to provide internet, this is the answer: DNS and DHCP come from Windows Server, and the UniFi gateway routes and filters. We are not making the file server into the office router. The goal line from the brief is current systems, a small network, and server services that give the office internet access.");
+  s.addNotes("Speaker: Joeii. Two minutes. Read down the left column, then the right. Then read the green bar slowly. If someone says the assignment wants the server to provide internet, this is the answer: DNS and DHCP come from Windows Server, and the UniFi gateway routes and filters. We are not making the file server into the office router. The goal line from the brief is current systems, a small network, and server services that give the office internet access.");
 }
 
 // ---------------------------------------------------------------------------
@@ -229,7 +233,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 15, color: C.bodyMuted, margin: 0, valign: "top",
   });
   addFooter(s, 3);
-  s.addNotes("About 90 seconds. Point left to right: circuit, gateway, switches, Wi-Fi. Then the gray panel. The port sentence is the part that shows the team counted. Do not quote a fiber bill. Say the monthly price is a blank until someone calls Lumen or Quantum Fiber for that address.");
+  s.addNotes("Speaker: Jeremy. About 90 seconds. Point left to right: circuit, gateway, switches, Wi-Fi. Then the gray panel. The port sentence is the part that shows the team counted. Do not quote a fiber bill. Say the monthly price is a blank until someone calls Lumen or Quantum Fiber for that address.");
 }
 
 // ---------------------------------------------------------------------------
@@ -279,7 +283,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 4);
-  s.addNotes("About 90 seconds. Left side first. Say the closet is locked and the janitor does not get that key. Right side: Hotmail has no company admin and no way to require multi-factor sign-in. The $5,640 has to be rechecked on Microsoft's own page. If the class forbids cloud email, this slide changes and so does the budget. Say that if it comes up, and do not pretend the server can grow past the Essentials user cap.");
+  s.addNotes("Speaker: Jeremy. About 90 seconds. Left side first. Say the closet is locked and the janitor does not get that key. Right side: Hotmail has no company admin and no way to require multi-factor sign-in. The $5,640 has to be rechecked on Microsoft's own page. If the class forbids cloud email, this slide changes and so does the budget. Say that if it comes up, and do not pretend the server can grow past the Essentials user cap.");
 }
 
 // ---------------------------------------------------------------------------
@@ -350,7 +354,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 5);
-  s.addNotes("About a minute. Every desk number is now from a real Dell.com listing, so the PC, the monitor, and the keyboard all carry Dell's warranty. The monitor has the best coverage, three years with Advanced Exchange. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
+  s.addNotes("Speaker: Jeremy. About a minute. Every desk number is now from a real Dell.com listing, so the PC, the monitor, and the keyboard all carry Dell's warranty. The monitor has the best coverage, three years with Advanced Exchange. The point of identical PCs is the spare and the image, not the brand. End on the check printer so nobody thinks the inkjets and the check printer are the same decision.");
 }
 
 // ---------------------------------------------------------------------------
@@ -396,7 +400,7 @@ function addTitle(slide, text) {
     valign: "middle",
   });
   addFooter(s, 6);
-  s.addNotes("About a minute. Spend the time on the right column. The check printer stays because a laser will not print multipart check stock. The Xerox stays if it has a network port or the lease vendor can turn one on. Buying a new copier is not this project. Floppies get read once, on one migration PC with a USB floppy drive and a DVD drive, then the disks go to the storage facility. The janitor still cleans. The janitor does not open the closet.");
+  s.addNotes("Speaker: Jeremy. About a minute. Spend the time on the right column. The check printer stays because a laser will not print multipart check stock. The Xerox stays if it has a network port or the lease vendor can turn one on. Buying a new copier is not this project. Floppies get read once, on one migration PC with a USB floppy drive and a DVD drive, then the disks go to the storage facility. The janitor still cleans. The janitor does not open the closet.");
 }
 
 // ---------------------------------------------------------------------------
@@ -462,7 +466,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 7);
-  s.addNotes("Ninety seconds. Say planning total, then the three piles, then the green bar. 40038 plus 4000 plus 5640 is 49678. Line amounts are rounded to the whole dollar. The kickoff deck rounded the first pile to $40,000 and mail to $5,600. Cabling is the only estimate left. Do not call this a bid.");
+  s.addNotes("Budget speaker not assigned yet. Ninety seconds. Say planning total, then the three piles, then the green bar. 40038 plus 4000 plus 5640 is 49678. Line amounts are rounded to the whole dollar. The kickoff deck rounded the first pile to $40,000 and mail to $5,600. Cabling is the only estimate left. Do not call this a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -515,7 +519,7 @@ function addTitle(slide, text) {
     valign: "middle",
   });
   addFooter(s, 8);
-  s.addNotes("One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics: 129 plus 379 plus 109 plus 198 is 815. Monitors 3700 plus keyboards 400 is 4100. Cabinet 482 plus UPS 340 plus patch panel, jacks, and cords 228 is 1050. Floppy 22, DVD 64, and two 2 TB drives 268 is 354. Cabling labor is the one estimate. The line-by-line sources live in notes/budget-strawman.md in the project repo. Offer to send that page.");
+  s.addNotes("Budget speaker not assigned yet. One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics: 129 plus 379 plus 109 plus 198 is 815. Monitors 3700 plus keyboards 400 is 4100. Cabinet 482 plus UPS 340 plus patch panel, jacks, and cords 228 is 1050. Floppy 22, DVD 64, and two 2 TB drives 268 is 354. Cabling labor is the one estimate. The line-by-line sources live in notes/budget-strawman.md in the project repo. Offer to send that page.");
 }
 
 // ---------------------------------------------------------------------------
@@ -560,7 +564,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 9);
-  s.addNotes("Two minutes. This is the firm's install, not the class homework calendar. The rule is the last card: if the January pilot is messy, the office does not discover that during tax season. Say the dates assume the owner approves on December 9. Christmas week is when the closet work happens because the desks can stay dark. Five people a night is deliberate. Twenty people on one morning is how you stop an accounting office.");
+  s.addNotes("Speaker: Ray. Two minutes. This is the firm's install, not the class homework calendar. The rule is the last card: if the January pilot is messy, the office does not discover that during tax season. Say the dates assume the owner approves on December 9. Christmas week is when the closet work happens because the desks can stay dark. Five people a night is deliberate. Twenty people on one morning is how you stop an accounting office.");
 }
 
 // ---------------------------------------------------------------------------
@@ -599,7 +603,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 10);
-  s.addNotes("Ninety seconds. These are lessons from building the proposal, not from a finished install. Say that in one clause so the owner, and the instructor, know you are not pretending the office is already upgraded. Lesson 4 is two ideas on purpose: the calendar, and the habit of dating every price. If you are short on time, cut lesson 2. Do not cut the check printer or the tax-season freeze.");
+  s.addNotes("Speaker: Joeii. Ninety seconds. These are lessons from building the proposal, not from a finished install. Say that in one clause so the owner, and the instructor, know you are not pretending the office is already upgraded. Lesson 4 is two ideas on purpose: the calendar, and the habit of dating every price. If you are short on time, cut lesson 2. Do not cut the check printer or the tax-season freeze.");
 }
 
 // ---------------------------------------------------------------------------
@@ -639,7 +643,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 11);
-  s.addNotes("Twenty seconds unless someone asks. Do not read the URLs aloud. Say the prices were viewed November 9, 2026, the mail price still needs Microsoft's own page, and the client facts come from the assignment. The titles on this slide are links. Cabling labor is the one estimate left, and it is labeled as an estimate on the budget slides, not dressed up as a source.");
+  s.addNotes("References speaker not assigned yet. Twenty seconds unless someone asks. Do not read the URLs aloud. Say the prices were viewed November 9, 2026, the mail price still needs Microsoft's own page, and the client facts come from the assignment. The titles on this slide are links. Cabling labor is the one estimate left, and it is labeled as an estimate on the budget slides, not dressed up as a source.");
 }
 
 // ---------------------------------------------------------------------------
@@ -677,7 +681,7 @@ function addTitle(slide, text) {
     });
   });
   addFooter(s, 12);
-  s.addNotes("One minute, then stop talking. Ask the room, as if they were the owner, which of the four they would decide today. That gives the last speaker a clean ending and gives classmates a chance to ask about the check printer, the mail price, or the January freeze. Thank them. Do not add a new product in the question period.");
+  s.addNotes("Speaker: Joeii. One minute, then stop talking. Ask the room, as if they were the owner, which of the four they would decide today. That gives the last speaker a clean ending and gives classmates a chance to ask about the check printer, the mail price, or the January freeze. Thank them. Do not add a new product in the question period.");
 }
 
 pres.writeFile({ fileName: path.join(__dirname, "Project-Idylewood-Proposal.pptx") })

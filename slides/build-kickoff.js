@@ -513,17 +513,17 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s);
-  addTitle(s, "Suggested work, names still blank");
+  addTitle(s, "Who owns what");
 
   const headerOpts = { fill: { color: C.green }, color: C.white, bold: true, align: "left" };
   const bodyRows = [
-    ["Title", "Firm name, team names, December 9", ""],
-    ["Overview", "Today versus the proposed office, in one page", ""],
-    ["Equipment", "One example product per category, with a picture and a reason", ""],
-    ["Budget", "Swap the cabling estimate for a quote. Keep the sources.", ""],
-    ["Timeline", "A phased install that does not stop tax-season work", ""],
-    ["Lessons", "Write this after the research. Leave it blank today.", ""],
-    ["References", "Vendor pages, Microsoft's price page, and the assignment", ""],
+    ["Title", "Firm name, team names, December 9", "Joeii"],
+    ["Overview", "Today versus the proposed office, in one page", "Joeii"],
+    ["Equipment", "One example product per category, with a picture and a reason", "Jeremy"],
+    ["Budget", "Swap the cabling estimate for a quote. Keep the sources.", "Open"],
+    ["Timeline", "A phased install that does not stop tax-season work", "Ray"],
+    ["Lessons", "Write this after the research. Leave it blank today.", "Joeii"],
+    ["References", "Vendor pages, Microsoft's price page, and the assignment", "Open"],
   ];
   const table = [
     [

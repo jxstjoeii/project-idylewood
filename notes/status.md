@@ -1,6 +1,6 @@
 # Status
 
-Updated 2026-11-09.
+Updated 2026-11-16.
 
 ## Locked
 
@@ -13,6 +13,10 @@ Updated 2026-11-09.
 - Graded proposal deck: `slides/Project-Idylewood-Proposal.pptx`. Twelve slides. Title, overview, equipment, budget, implementation, lessons learned, references, and a closing ask.
 - The kickoff design is a strawman. The proposal deck uses that same design and says so where a price is still an estimate.
 - Repo purpose: move project notes between devices.
+- Speaking split (decided by November 16):
+  - Joeii: opening (title and overview, slides 1–2), lessons learned (slide 10), and the closing ask (slide 12).
+  - Jeremy: equipment (network, server and mail, desks, what we keep, slides 3–6).
+  - Ray: implementation timeline (slide 9).
 
 ## Strawman, not yet accepted by the team
 
@@ -25,6 +29,6 @@ Updated 2026-11-09.
 
 ## Not locked yet
 
-- Team roster and speaking split
+- Who presents the budget (slides 7–8) and references (slide 11)
 - Whether cloud email is allowed
 - Budget cap or other instructor constraints
