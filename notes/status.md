@@ -27,7 +27,7 @@ Updated 2026-11-16.
 - Twenty Dell Pro Micro desktops on Windows 11 Pro. CRTs and personal inkjets retire.
 - Mail, option A: Microsoft 365 Business Standard replaces Hotmail. Option B, Exchange Server on-site, is shown on the slides as the backup.
 - The dot matrix check printer and the leased Xerox stay.
-- Planning total about $49,700 before tax. PCs, monitors, and keyboards are priced on Dell.com so they carry Dell's warranty. Cabling labor is the only estimate left. Fiber and sales tax are extra.
+- Year-one total about $71,100 with 10.5% Tacoma sales tax: equipment $40,038, labor $17,750 (estimated), Microsoft 365 and Quantum Fiber $6,540. PCs, monitors, and keyboards are priced on Dell.com so they carry Dell's warranty.
 
 ## Not locked yet
 

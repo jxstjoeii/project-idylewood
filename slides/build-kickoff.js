@@ -344,12 +344,12 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s);
-  addTitle(s, "Planning budget, before tax");
+  addTitle(s, "Year-one budget, with sales tax");
 
   const stats = [
     { n: "$40,000", label: "Priced from vendor pages", sub: "PCs, monitors, keyboards, server, network, closet, migration drives", color: C.green },
-    { n: "$4,000", label: "Still an estimate", sub: "Cabling: 20 Cat6 drops, installed. Needs a Tacoma quote.", color: "6B5A32" },
-    { n: "$5,600", label: "Microsoft 365, year one", sub: "20 people, Business Standard, annual", color: "3E5230" },
+    { n: "$17,800", label: "Labor, estimated", sub: "Cabling $4,000. IT setup, 110 hours at $125.", color: "6B5A32" },
+    { n: "$6,500", label: "Mail and fiber, year one", sub: "Microsoft 365 $5,640. Quantum Fiber 1 Gig, $75 a month.", color: "3E5230" },
   ];
   stats.forEach((st, i) => {
     const x = 0.5 + i * 4.2;
@@ -379,20 +379,20 @@ function addTitle(slide, text) {
     x: 0.5, y: 3.85, w: W - 1.0, h: 1.15,
     fill: { color: C.green }, line: { width: 0 },
   });
-  s.addText("ABOUT  $49,700", {
+  s.addText("ABOUT  $71,100", {
     x: 0.75, y: 3.98, w: 5.5, h: 0.45,
     fontFace: F.title, fontSize: 28, bold: true, color: C.white, margin: 0,
   });
-  s.addText("Year-one planning total. Fiber to replace DSL is a separate quote. Sales tax is not in this number.", {
+  s.addText("Includes 10.5% Tacoma sales tax, about $6,750. Not a bid. After year one, mail and fiber run about $600 a month.", {
     x: 0.75, y: 4.48, w: 11.5, h: 0.35,
     fontFace: F.body, fontSize: 15, color: C.cream, margin: 0,
   });
 
   const notes = [
-    ["PCs", "20 × $1,526 Dell Pro Micro, Core Ultra 5, Windows 11 Pro, 16 GB, 512 GB. Dell.com, includes Dell warranty."],
-    ["Server", "Dell PowerEdge T160 with Windows Server 2025 Essentials, $3,199 on Dell.com."],
-    ["Desk + closet", "Dell P2425H monitor $184.99, Dell KM300C keyboard and mouse $19.99. Cabinet, UPS, patch parts $1,050. Ubiquiti network $815."],
-    ["Mail", "About $23.50 per user per month. Confirm on microsoft.com before the final deck."],
+    ["PCs + server", "20 Dell Pro Micro at $1,526 and a PowerEdge T160 at $3,199. All Dell.com, with Dell warranty."],
+    ["Desk + closet", "Dell P2425H monitor $184.99, Dell KM300C keyboard and mouse $19.99. Cabinet, UPS, patch parts $1,050. Network $815."],
+    ["Labor", "Cabling about $200 a drop. IT setup 110 hours at $125, the middle of US IT-firm rates."],
+    ["Tax", "10.5% Tacoma rate since July 1, 2026, applied to everything: $6,754."],
   ];
   notes.forEach((n, i) => {
     const col = i % 2;
@@ -410,7 +410,7 @@ function addTitle(slide, text) {
   });
 
   addFooter(s, 6);
-  s.addNotes("Say the words planning budget. The $40,000 is from vendor pages checked November 9: PCs $30,520, monitors $3,700, keyboard sets $400, server $3,199, Ubiquiti network $815, cabinet, UPS and patch parts $1,050, migration drives $354. That adds to $40,038, which this slide rounds to $40,000. The PCs, monitors, and keyboards are all bought on Dell.com so they carry Dell's warranty. The only estimate left is cabling, 20 drops at about $200 installed, and it needs a real Tacoma quote. Microsoft 365 at $23.50 times 20 times 12 is $5,640, shown as $5,600. Line items and links are in notes/budget-strawman.md. Do not let the team treat $49,700 as a bid.");
+  s.addNotes("Say year one, with tax. Equipment is $40,038 from vendor pages checked November 9, shown as $40,000. Labor is estimated: cabling $4,000 and IT setup 110 hours at $125, $13,750, together $17,750. Mail and fiber for the first year: Microsoft 365 $5,640 plus Quantum Fiber at $75 a month, $900, together $6,540. That is $64,328 before tax. Tacoma sales tax is 10.5%, $6,754, for $71,082. Line items and links are in notes/budget-strawman.md. Do not let the team treat $71,100 as a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -503,7 +503,7 @@ function addTitle(slide, text) {
   });
 
   addFooter(s, 8);
-  s.addNotes("This is the slide to camp on. Hand the room a pen or a shared doc and fill the five answers before anyone leaves. If the team rejects cloud email, the budget and the server slide both change, and you need to say so before you promise the $49,700 number. If you run out of time, decisions 3 and 4 are the ones that hurt on December 9.");
+  s.addNotes("This is the slide to camp on. Hand the room a pen or a shared doc and fill the five answers before anyone leaves. If the team rejects cloud email, the budget and the server slide both change, and you need to say so before you promise the $71,100 number. If you run out of time, decisions 3 and 4 are the ones that hurt on December 9.");
 }
 
 // ---------------------------------------------------------------------------

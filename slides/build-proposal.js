@@ -98,7 +98,7 @@ function addTitle(slide, text) {
     x: 0.7, y: 4.1, w: 11, h: 0.35,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0,
   });
-  s.addText("Planning budget about $49,700 before tax. Not a bid.", {
+  s.addText("Year-one budget about $71,100, sales tax included. Not a bid.", {
     x: 0.7, y: 4.55, w: 11, h: 0.32,
     fontFace: F.body, fontSize: 16, color: C.white, margin: 0,
   });
@@ -136,7 +136,7 @@ function addTitle(slide, text) {
         "20 identical Windows 11 PCs",
         "One file server, and a second copy offsite",
         "Microsoft 365 on a domain the firm owns",
-        "Fiber, after a Pacific Avenue quote",
+        "Quantum Fiber, 1 Gig business service",
         "One networked Xerox, one check printer",
         "A closet lock the janitor does not hold",
       ],
@@ -187,7 +187,7 @@ function addTitle(slide, text) {
   addTitle(s, "The network, from the street to the desk");
 
   const boxes = [
-    { k: "CIRCUIT", t: "Fiber, after a quote", d: "Replace Qwest / CenturyLink DSL. Do not invent the monthly price. Ask Quantum Fiber or Lumen for Pacific Avenue." },
+    { k: "CIRCUIT", t: "Quantum Fiber, 1 Gig", d: "Replaces Qwest / CenturyLink DSL. Business 1 Gig up and down, $75 a month ($50 on the current promo). No annual contract. Confirm Pacific Avenue is served." },
     { k: "DOOR", t: "Cloud Gateway Ultra", d: "UniFi UCG-Ultra, $129. It routes, filters, and keeps guest Wi-Fi off the office network." },
     { k: "SWITCHES", t: "24 ports, plus 8", d: "USW-24-PoE, $379, for the desks. USW-Lite-8-PoE, $109, for the closet. One 24-port switch is not enough." },
     { k: "WI-FI", t: "Two U7 Lite", d: "$99 each on the Ubiquiti store. About 1,250 square feet of rated coverage each. Staff SSID and a guest SSID." },
@@ -233,7 +233,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 15, color: C.bodyMuted, margin: 0, valign: "top",
   });
   addFooter(s, 3);
-  s.addNotes("Speaker: Jeremy. About 90 seconds. Point left to right: circuit, gateway, switches, Wi-Fi. Then the gray panel. The port sentence is the part that shows the team counted. Do not quote a fiber bill. Say the monthly price is a blank until someone calls Lumen or Quantum Fiber for that address.");
+  s.addNotes("Speaker: Jeremy. About 90 seconds. Point left to right: circuit, gateway, switches, Wi-Fi. Then the gray panel. The port sentence is the part that shows the team counted. Fiber: Quantum Fiber lists business 1 Gig in Tacoma at $75 a month, $50 on a promo. The budget uses $75 so a promo ending does not break it. Confirm the building is served.");
 }
 
 // ---------------------------------------------------------------------------
@@ -410,12 +410,12 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s, "BUDGET");
-  addTitle(s, "Planning total, before tax");
+  addTitle(s, "Year one, with sales tax");
 
   const stats = [
-    { n: "$40,038", l: "Vendor pages", s: "PCs, monitors, keyboards, server, network, cabinet, UPS, patch parts, migration drives. Viewed November 9, 2026." },
-    { n: "$4,000", l: "Still an estimate", s: "Cabling only: 20 Cat6 drops, installed. Needs a Tacoma low-voltage quote." },
-    { n: "$5,640", l: "Mail, year one", s: "Option A, Microsoft 365 Business Standard, 20 people. Option B, Exchange on-site, is a partner quote." },
+    { n: "$40,038", l: "Equipment", s: "PCs, monitors, keyboards, server, network, cabinet, UPS, patch parts, migration drives. Vendor pages, November 9, 2026." },
+    { n: "$17,750", l: "Labor, estimated", s: "Cabling $4,000: 20 drops at about $200. IT setup $13,750: 110 hours at $125 an hour." },
+    { n: "$6,540", l: "Mail and fiber, year one", s: "Microsoft 365 Business Standard, $5,640. Quantum Fiber 1 Gig at $75 a month, $900." },
   ];
   stats.forEach((st, i) => {
     const x = 0.5 + i * 4.2;
@@ -445,17 +445,17 @@ function addTitle(slide, text) {
     x: 0.5, y: 4.15, w: W - 1.0, h: 1.15,
     fill: { color: C.green }, line: { width: 0 },
   });
-  s.addText("$49,678", {
+  s.addText("$71,082", {
     x: 0.75, y: 4.28, w: 4.2, h: 0.5,
     fontFace: F.title, fontSize: 32, bold: true, color: C.white, margin: 0,
   });
-  s.addText("Year one, before tax. About $49,700 if you round it. Fiber service and sales tax are not in this number.", {
+  s.addText("Includes $6,754 of Tacoma sales tax at 10.5%. About $71,100. After year one, mail and fiber run about $602 a month with tax.", {
     x: 5.1, y: 4.3, w: 7.4, h: 0.85,
     fontFace: F.body, fontSize: 16, color: C.cream, margin: 0, valign: "middle",
   });
 
   const excluded = [
-    ["Not included", "Sales tax. The monthly fiber bill. Labor to sit and copy floppies. A new copier. A new check printer."],
+    ["Not included", "A new copier. A new check printer. Fiber install or static IP fees. Mail option B (Exchange) licensing, which is a partner quote."],
   ];
   s.addText(excluded[0][0].toUpperCase(), {
     x: 0.5, y: 5.55, w: 12.3, h: 0.28,
@@ -466,7 +466,7 @@ function addTitle(slide, text) {
     fontFace: F.body, fontSize: 16, color: C.ink, margin: 0, valign: "top",
   });
   addFooter(s, 7);
-  s.addNotes("Budget speaker not assigned yet. Ninety seconds. Say planning total, then the three piles, then the green bar. 40038 plus 4000 plus 5640 is 49678. Line amounts are rounded to the whole dollar. The kickoff deck rounded the first pile to $40,000 and mail to $5,600. Cabling is the only estimate left. Do not call this a bid.");
+  s.addNotes("Budget speaker not assigned yet. Ninety seconds. Say year one, with tax, then the three piles, then the green bar. 40038 plus 17750 plus 6540 is 64328. Sales tax at 10.5% is 6754. Total 71082. Tax is applied to everything to keep it simple; some IT support labor may be exempt in Washington, so the tax line is on the high side. Labor is the softest number: 110 hours at $125, the middle of the $100 to $149 range US IT firms charge. Do not call this a bid.");
 }
 
 // ---------------------------------------------------------------------------
@@ -476,7 +476,7 @@ function addTitle(slide, text) {
   const s = pres.addSlide();
   s.background = { color: C.white };
   addHeader(s, "BUDGET");
-  addTitle(s, "Where the $49,678 comes from");
+  addTitle(s, "Where the $71,082 comes from");
 
   const headerOpts = { fill: { color: C.green }, color: C.white, bold: true, align: "left" };
   const rows = [
@@ -484,12 +484,14 @@ function addTitle(slide, text) {
     ["PowerEdge T160, Server 2025 Essentials", "$3,199", "Dell.com list"],
     ["Gateway, two switches, two access points", "$815", "Ubiquiti list"],
     ["20 Dell monitors and keyboard sets", "$4,100", "Dell.com, with warranty"],
-    ["Wall cabinet, UPS, patch panel and cords", "$1,050", "Retail list, Nov 9"],
-    ["Floppy, DVD, and backup disks", "$354", "Retail list, Nov 9"],
+    ["Cabinet, UPS, patch parts, migration drives", "$1,404", "Retail list, Nov 9"],
     ["Cabling, 20 Cat6 drops installed", "$4,000", "Estimate"],
+    ["IT setup labor, 110 hours at $125", "$13,750", "Estimate"],
     ["Mail option A: Microsoft 365, year one", "$5,640", "Recheck Microsoft"],
+    ["Quantum Fiber 1 Gig, 12 months at $75", "$900", "quantumfiber.com"],
+    ["Sales tax, 10.5% Tacoma, on all of the above", "$6,754", "WA Dept. of Revenue"],
     ["Mail option B: Exchange on-site, instead of A", "Quote", "Not in total"],
-    ["Total before tax", "$49,678", "Not a bid"],
+    ["Total, year one, with tax", "$71,082", "Not a bid"],
   ];
   const table = [
     [
@@ -520,7 +522,7 @@ function addTitle(slide, text) {
     valign: "middle",
   });
   addFooter(s, 8);
-  s.addNotes("Budget speaker not assigned yet. One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics: 129 plus 379 plus 109 plus 198 is 815. Monitors 3700 plus keyboards 400 is 4100. Cabinet 482 plus UPS 340 plus patch panel, jacks, and cords 228 is 1050. Floppy 22, DVD 64, and two 2 TB drives 268 is 354. Cabling labor is the one estimate. The line-by-line sources live in notes/budget-strawman.md in the project repo. Offer to send that page.");
+  s.addNotes("Budget speaker not assigned yet. One minute, or skip this slide if the clock is behind and leave it for questions. Network electronics 815. Monitors and keyboards 4100. Cabinet, UPS, patch parts 1050 plus migration drives 354 is 1404. IT setup hours: closet and network 12, server 16, twenty PCs at 1.5 hours is 30, Microsoft 365 and the Hotmail move 10, data and floppy migration 20, printers 4, training and go-live 8, project management 10. That is 110. Mail option B is listed for comparison and is not in the total. The line-by-line sources live in notes/budget-strawman.md.");
 }
 
 // ---------------------------------------------------------------------------
@@ -623,24 +625,25 @@ function addTitle(slide, text) {
     { n: "04", t: "Microsoft 365 Business Standard", d: "About $23.50 per user per month, annual, from a November 1, 2026 summary of Microsoft's US list prices. Other pages that month disagreed. Confirm on Microsoft's plan page.", url: "https://www.microsoft.com/en-us/microsoft-365/business" },
     { n: "05", t: "Windows Server 2025 Essentials, and Exchange", d: "Essentials is described for up to 25 users and 50 devices. Exchange Server SE runs only on Windows Server Standard or Datacenter, per Microsoft's Exchange supportability matrix.", url: "https://www.microsoft.com/en-us/windows-server" },
     { n: "06", t: "Dell monitor and keyboard", d: "Dell Pro 24 Plus P2425H, $184.99, 3-year Advanced Exchange. Dell Pro 3 KM300C keyboard and mouse, $19.99, 1-year. dell.com, viewed November 9, 2026.", url: "https://www.dell.com/en-us/shop/dell-24-monitor-p2425h/apd/210-bmgh/monitors-monitor-accessories" },
-    { n: "07", t: "Closet and migration parts", d: "Tripp Lite SRW12U cabinet $481.79, APC BR1500MS2 UPS $339.99, Cat6 patch cords $46.96 per 10 (Staples). UniFi patch panel $29, Cat6 jacks $29 per 12 (store.ui.com). Dell DW316 DVD $63.99, USB floppy $22.09, WD Elements 2TB $133.99 each.", url: "https://www.staples.com/tripp-lite-srw12u-wall-mount-rack-enclosure-cabinet/product_IM1PX7136" },
-    { n: "08", t: "The assignment brief", d: "Accounting firm on Pacific Avenue in downtown Tacoma. Equipment list, Hotmail, DSL, the janitor, and the offsite storage facility come from the instructor's problem statement.", url: null },
+    { n: "07", t: "Closet and migration parts", d: "Staples: Tripp Lite SRW12U $481.79, APC BR1500MS2 $339.99, patch cords, Dell DW316 DVD. store.ui.com: patch panel, jacks. Walmart: USB floppy, WD 2 TB drives.", url: "https://www.staples.com/tripp-lite-srw12u-wall-mount-rack-enclosure-cabinet/product_IM1PX7136" },
+    { n: "08", t: "Sales tax, fiber, and labor rate", d: "Tacoma 10.5% from July 1, 2026 (WA Dept. of Revenue). Quantum Fiber Business 1 Gig, $75 a month (quantumfiber.com). IT firms $100–149 an hour (Clutch, Sept. 2026).", url: "https://dor.wa.gov/sites/default/files/2026-04/Q326_Pierce_County_LLEP.pdf" },
+    { n: "09", t: "The assignment brief", d: "Accounting firm on Pacific Avenue in downtown Tacoma. Equipment list, Hotmail, DSL, the janitor, and the offsite storage facility come from the instructor's problem statement.", url: null },
   ];
   refs.forEach((r, i) => {
-    const y = 1.0 + i * 0.74;
+    const y = 1.0 + i * 0.665;
     s.addText(r.n, {
       x: 0.5, y, w: 0.7, h: 0.8,
-      fontFace: F.title, fontSize: 16, bold: true, color: C.green, margin: 0, valign: "top",
+      fontFace: F.title, fontSize: 15, bold: true, color: C.green, margin: 0, valign: "top",
     });
     const titleOpts = {
-      x: 1.3, y, w: 11.3, h: 0.3,
-      fontFace: F.body, fontSize: 15, bold: true, color: C.ink, margin: 0,
+      x: 1.3, y, w: 11.3, h: 0.27,
+      fontFace: F.body, fontSize: 14, bold: true, color: C.ink, margin: 0,
     };
     if (r.url) titleOpts.hyperlink = { url: r.url };
     s.addText(r.t, titleOpts);
     s.addText(r.d, {
-      x: 1.3, y: y + 0.3, w: 11.3, h: 0.55,
-      fontFace: F.body, fontSize: 12, color: C.bodyMuted, margin: 0, valign: "top",
+      x: 1.3, y: y + 0.27, w: 11.3, h: 0.4,
+      fontFace: F.body, fontSize: 11, color: C.bodyMuted, margin: 0, valign: "top",
     });
   });
   addFooter(s, 11);
@@ -657,7 +660,7 @@ function addTitle(slide, text) {
   addTitle(s, "Four decisions before anyone orders");
 
   const asks = [
-    ["1", "Approve the direction", "Accept this design and the $49,678 planning total, knowing fiber and tax are extra."],
+    ["1", "Approve the direction", "Accept this design and the $71,082 year-one total, with tax, labor, and a year of fiber."],
     ["2", "Name the domain", "Either mail option needs a domain the firm owns before Hotmail can go."],
     ["3", "Name the closet", "Which room locks, and which person holds a key the janitor does not have."],
     ["4", "Choose the freeze", "A January cutover only if the pilot is clean. Otherwise wait until after April 15."],

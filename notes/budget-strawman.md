@@ -1,6 +1,6 @@
 # Budget strawman
 
-Checked November 9, 2026. This is a planning budget for the team meeting. It is not a quote and it is not the graded budget slide.
+Checked November 9, 2026. Sales tax, labor, and fiber added November 16, 2026. This is a planning budget for the team meeting. It is not a quote and it is not the graded budget slide.
 
 Prices in the "Vendor page" column were read from the vendor's site or a current retail listing that day. Prices in the "Estimate" column were not checked against a product page. Replace every estimate before December 9.
 
@@ -53,14 +53,53 @@ Microsoft 365 is option A and is in the total. Option B keeps mail in the office
 
 The project has no budget cap (school project, not a real install), so B is shown as a real alternative, not ruled out on cost.
 
-## Not in the $49,700
+## IT setup labor (estimate)
 
-- Sales tax.
-- A business fiber circuit to replace Qwest / CenturyLink DSL. Get a Quantum Fiber or Lumen quote for Pacific Avenue. Do not invent a monthly price.
-- Labor to image 20 PCs and copy floppy disks and CDs, unless the team decides to price it.
+Rate: $125 an hour, the middle of the $100–149 an hour that US IT services firms charge (Clutch, updated September 2026). Hours are the team's estimate.
+
+| Task | Hours |
+| --- | ---: |
+| Closet and network: cabinet, UPS, gateway, switches, patch panel, access points, configuration | 12 |
+| Server: Windows Server, Active Directory, DNS, DHCP, file shares, print queue, backups | 16 |
+| 20 PCs: image, join to the domain, set up at the desk, 1.5 hours each | 30 |
+| Microsoft 365: domain, DNS records, multi-factor sign-in, mailboxes, Hotmail forwarding | 10 |
+| Data migration: old PC files, floppies, CDs | 20 |
+| Printers: network the Xerox and the check printer | 4 |
+| Staff training and go-live support | 8 |
+| Project management and documentation | 10 |
+| **Total** | **110 hours × $125 = $13,750** |
+
+Cabling labor stays at $4,000 (20 drops at about $200 installed), listed above.
+
+## Fiber
+
+Quantum Fiber Business, 1 Gig symmetrical, $75 a month on quantumfiber.com's Tacoma business page (shown as $50 a month on a promo with AutoPay). No annual contract. The budget uses $75 so a promo ending does not break it. Twelve months is $900. Install and static IP fees are not listed on the page; a static IP matters mostly for mail option B. Confirm the Pacific Avenue address is served.
+
+## Sales tax
+
+Tacoma's combined rate is 10.5% since July 1, 2026 (Washington Department of Revenue, Pierce County local rate change notice, location code 2717). It was 10.4% from April 1, 2026.
+
+The budget applies 10.5% to everything, including labor and the first year of Microsoft 365 and fiber, to keep it simple. Washington taxes equipment, network cabling installation, and digital automated services, but the Department of Revenue lists some IT technical support as not taxable, so the real tax could be a little lower.
+
+## Year-one total
+
+| Piece | Amount |
+| --- | ---: |
+| Equipment (vendor pages) | $40,038 |
+| Cabling labor (estimate) | $4,000 |
+| IT setup labor (estimate) | $13,750 |
+| Microsoft 365, year one | $5,640 |
+| Quantum Fiber, 12 months | $900 |
+| **Before tax** | **$64,328** |
+| Sales tax, 10.5% | $6,754 |
+| **Year one, with tax** | **$71,082** (about $71,100) |
+
+After year one: Microsoft 365 $470 a month plus fiber $75 a month is $545, about $602 a month with tax.
+
+## Not in the $71,100
+
 - A new copier. The strawman networks the leased Xerox instead of replacing it.
-- A new check printer. The dot matrix stays.
+- A new check printer.
+- Fiber install or static IP fees.
+- Mail option B (Exchange on-site) licensing and its second server.
 
-## Planning total
-
-$40,038 + $4,000 + $5,640 = $49,678 before tax. The slide says about $49,700.
